@@ -1,0 +1,122 @@
+/*CAMBIO DE FUENTE*/
+
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+/*RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+
+/*CONFIGURACION BODY Y HTML*/
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: blueviolet;
+}
+
+
+/* MAIN */
+
+main {
+    display: block;
+    margin: 1% auto;
+    padding: 3%;
+    width: 38%;
+    height: 95%;
+    background-color: white;
+    overflow: hidden;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(97, 202, 167);
+}
+
+.icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    stroke-width: 0;
+    stroke: black;
+    fill: black;
+}
+
+div:hover {
+    background-color: rgb(97, 214, 175);
+    color: white;
+}
+
+div:hover .icon {
+    stroke: white;
+    fill: white;
+}
+
+p {
+    padding-left: 3%;
+}
+
+
+/* HOME */
+
+#home {
+    display: flex;
+    align-content: center;
+    margin-top: 5%;
+    height: 10%;
+    padding: 4% 2% 0 2%;
+}
+
+
+/* ABOUT ME */
+
+#aboutMe {
+    display: flex;
+    align-content: center;
+    height: 10%;
+    padding: 4% 2% 0 2%;
+}
+
+
+/* PORTAFOLIO */
+
+#portafolio {
+    display: flex;
+    align-content: center;
+    height: 10%;
+    padding: 4% 2% 0 2%;
+}
+
+
+/* CONTACT ME */
+
+#contactMe {
+    display: flex;
+    align-content: center;
+    height: 10%;
+    padding: 4% 2% 0 2%;
+}
+
+
+/* FIGURE */
+
+figure img {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 40%;
+    margin: 20% auto 0 auto;
+    border-radius: 100%;
+}
+
+figcaption {
+    display: flex;
+    justify-content: center;
+}
